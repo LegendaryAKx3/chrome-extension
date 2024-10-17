@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "LLM Request Extension",
+    "version": "1.0",
+    "description": "Send requests to an LLM API from a text field",
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "dist/background.js"
+    }
+  }

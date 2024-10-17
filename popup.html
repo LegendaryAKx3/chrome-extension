@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LLM Request Extension</title>
+  <style>
+    body { width: 300px; padding: 10px; }
+    textarea, input, button { width: 100%; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <textarea id="prompt" rows="4" placeholder="Enter your prompt here"></textarea>
+  <input type="text" id="apiKey" placeholder="Enter your API key">
+  <button id="sendRequest">Send Request</button>
+  <div id="response"></div>
+  <script src="dist/popup.js"></script>
+</body>
+</html>
